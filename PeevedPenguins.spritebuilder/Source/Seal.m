@@ -10,5 +10,7 @@
 
 @implementation Seal : CCSprite
 
-
+- (void)didLoadFromCCB {
+    self.physicsBody.collisionType = @"seal";
+}
 @end

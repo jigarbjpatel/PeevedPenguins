@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012380841A802FAA00489591 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 012380831A802FAA00489591 /* Gameplay.m */; };
 		019DB89B1A7DDAEA00B3B847 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 019DB89A1A7DDAEA00B3B847 /* Penguin.m */; };
 		019DB8A91A7DDBD600B3B847 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = 019DB8A81A7DDBD600B3B847 /* Seal.m */; };
+		01C89B141A81E963008337F1 /* WaitingPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C89B131A81E963008337F1 /* WaitingPenguin.m */; };
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
@@ -79,10 +81,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0123807C1A802F4E00489591 /* Gameplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gameplay.h; sourceTree = "<group>"; };
+		012380831A802FAA00489591 /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gameplay.m; path = Source/Gameplay.m; sourceTree = "<group>"; };
 		019DB89A1A7DDAEA00B3B847 /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Penguin.m; sourceTree = "<group>"; };
 		019DB8A61A7DDB1600B3B847 /* Penguin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Penguin.h; sourceTree = "<group>"; };
 		019DB8A71A7DDBB000B3B847 /* Seal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Seal.h; sourceTree = "<group>"; };
 		019DB8A81A7DDBD600B3B847 /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Seal.m; path = Source/Seal.m; sourceTree = "<group>"; };
+		01C89B0E1A81E936008337F1 /* WaitingPenguin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaitingPenguin.h; sourceTree = "<group>"; };
+		01C89B131A81E963008337F1 /* WaitingPenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaitingPenguin.m; path = Source/WaitingPenguin.m; sourceTree = "<group>"; };
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
@@ -160,6 +166,10 @@
 				019DB8A61A7DDB1600B3B847 /* Penguin.h */,
 				019DB8A71A7DDBB000B3B847 /* Seal.h */,
 				019DB8A81A7DDBD600B3B847 /* Seal.m */,
+				0123807C1A802F4E00489591 /* Gameplay.h */,
+				012380831A802FAA00489591 /* Gameplay.m */,
+				01C89B0E1A81E936008337F1 /* WaitingPenguin.h */,
+				01C89B131A81E963008337F1 /* WaitingPenguin.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -376,7 +386,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		D2E0167A18D782EC00927430 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -397,9 +407,11 @@
 			files = (
 				019DB8A91A7DDBD600B3B847 /* Seal.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
+				01C89B141A81E963008337F1 /* WaitingPenguin.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				019DB89B1A7DDAEA00B3B847 /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				012380841A802FAA00489591 /* Gameplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
